@@ -11,5 +11,5 @@ fn main() {
         });
     }
     pool.join();
-    print!("任务结束了");
+    print!("Task completed");
 }

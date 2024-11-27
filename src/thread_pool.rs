@@ -19,12 +19,9 @@ impl Worker {
     
                 match receiver {
                     Ok(task) => {
-                        println!("Thread {} got the task& executing.", id);
                         task();
                     },
-    
                     Err(_) => {
-                        println!("No got the task");
                         break;
                     }
                 }
