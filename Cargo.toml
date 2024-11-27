@@ -10,6 +10,9 @@ keywords = [
     "std-lib-extension",
     "qlib"
 ]
+description = "This is a simple library developed using the Rust standard util library. | 这是一个用rust标准库开发的简单的工具Lib"
+license = "MIT"
+
 [dependencies]
 
 
