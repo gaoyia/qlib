@@ -1,0 +1,11 @@
+[package]
+name = "qlib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[[test]]
+name = "thread_pool_test"
+path = "tests/thread_pool_test.rs"
