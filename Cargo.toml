@@ -2,10 +2,18 @@
 name = "qlib"
 version = "0.1.0"
 edition = "2021"
-
+repository = "https://github.com/gaoyia/qlib"
+readme = "README.md"
+homepage = "https://github.com/gaoyia/qlib"
+keywords = [
+    "quick-lib",
+    "std-lib-extension",
+    "qlib"
+]
 [dependencies]
 
 
 [[test]]
 name = "thread_pool_test"
 path = "tests/thread_pool_test.rs"
+
